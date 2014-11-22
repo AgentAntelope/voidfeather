@@ -1,0 +1,31 @@
+---
+- Alakdan:
+    Race: The Tē
+    Secrets:
+    - Luck
+    Keys:
+    - Subservient: Hit this key when you act on another's orders.
+    - Team Spirit: Hit this key when you act in the team's interest.
+    - Tinkerer: Hit this key when you modify, improve, or patch some tech.
+    Traits:
+    - Many Claws Make Light Work:
+        Tags:
+        - Mechanic
+        - Electrician
+        - Handy-scorpion
+        - Improvised Weapons
+        - Hacking
+    - Medic:
+        Tags:
+        - Field Dressing
+        - Bio Knowledge
+        - Strong Stomach
+        - Pressure Points
+        - Surgery
+    - Silver Tongue:
+        Tags:
+        - Raconteur
+        - Deceit
+        - Bartering
+        - Pushing Buttons
+        - Sway

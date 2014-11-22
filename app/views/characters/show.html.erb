@@ -1,0 +1,39 @@
+<h2><%= @character.name %></h2>
+
+<h3> Race: </h3> <%= @character.race %>
+
+<h3>Keys:</h3>
+<ul>
+  <% @character.keys.each do |key| %>
+  <li>
+    <%= key.keys.first %>: <%= key.values.first %>
+  </li>
+  <% end %>
+</ul>
+
+<h3>Secrets:</h3>
+<ul>
+  <% @character.secrets.each do |secret| %>
+  <li>
+    <%= secret %>
+  </li>
+  <% end %>
+</ul>
+
+<h3>Traits:</h3>
+<ul>
+  <% @character.traits.each do |trait| %>
+    <li>
+      <h4>
+        <%= trait.title %>
+      <h4>
+    </li>
+    <ul>
+      <% trait.tags.each do |tag| %>
+        <li>
+          <%= tag %>
+        </li>
+      <% end %>
+    </ul>
+  <% end %>
+</ul>
