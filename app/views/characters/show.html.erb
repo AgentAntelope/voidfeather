@@ -8,7 +8,7 @@
     <ul class='list-group'>
       <table class='table'>
         <tr>
-          <th>
+          <th class='name'>
             Name
           </th>
           <th>
@@ -35,9 +35,26 @@
   <div class="panel-body">
     <ul class='list-group'>
       <% @character.secrets.each do |secret| %>
-      <li class='list-group-item'>
-        <%= secret %>
-      </li>
+        <table class='table'>
+          <tr>
+            <th class='name'>
+              Name
+            </th>
+            <th>
+              Description
+            </th>
+          </tr>
+          <% @character.secrets.each do |secret| %>
+          <tr>
+            <td>
+              <%= secret.keys.first %>
+            </td>
+            <td>
+              <%= secret.values.first %>
+            </td>
+          </tr>
+          <% end %>
+        </table>
       <% end %>
     </ul>
   </div>
