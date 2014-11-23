@@ -1,9 +1,15 @@
-<h2>Characters:</h2>
+<div class="page-header">
+  <h1>Crew <small> of the Voidfeather</small></h1>
+</div>
 
-<ul>
-  <% @characters.each do |character| %>
-    <li>
-      <%= link_to character.name, character_path(character.name) %>
-    </li>
-  <% end %>
-</ul>
+<div class="panel panel-default">
+  <div class="panel-body">
+    <ul class='list-group'>
+      <% @characters.each do |character| %>
+      <li class='list-group-item'>
+        <%= link_to character.name, character_path(character.name) %>
+      </li>
+      <% end %>
+    </ul>
+  </div>
+</div>

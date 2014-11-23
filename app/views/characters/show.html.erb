@@ -1,39 +1,63 @@
-<h2><%= @character.name %></h2>
+<div class="page-header">
+  <h1><%= @character.name %> <small>of <%= @character.race %></small></h1>
+</div>
 
-<h3> Race: </h3> <%= @character.race %>
-
-<h3>Keys:</h3>
-<ul>
-  <% @character.keys.each do |key| %>
-  <li>
-    <%= key.keys.first %>: <%= key.values.first %>
-  </li>
-  <% end %>
-</ul>
-
-<h3>Secrets:</h3>
-<ul>
-  <% @character.secrets.each do |secret| %>
-  <li>
-    <%= secret %>
-  </li>
-  <% end %>
-</ul>
-
-<h3>Traits:</h3>
-<ul>
-  <% @character.traits.each do |trait| %>
-    <li>
-      <h4>
-        <%= trait.title %>
-      <h4>
-    </li>
-    <ul>
-      <% trait.tags.each do |tag| %>
-        <li>
-          <%= tag %>
-        </li>
+<div class="panel panel-default">
+  <h3 class='panel-heading'>Keys:</h3>
+  <div class="panel-body">
+    <ul class='list-group'>
+      <% @character.keys.each do |key| %>
+      <li class='list-group-item'>
+        <%= key.keys.first %>: <%= key.values.first %>
+      </li>
       <% end %>
     </ul>
-  <% end %>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <h3 class='panel-heading'>Secrets:</h3>
+  <div class="panel-body">
+    <ul class='list-group'>
+      <% @character.secrets.each do |secret| %>
+      <li class='list-group-item'>
+        <%= secret %>
+      </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
+
+
+<div class="panel panel-default">
+  <!-- Default panel contents -->
+  <h3 class="panel-heading">Traits:</h3>
+  <div class="panel-body">
+    <!-- Table -->
+    <table class="table">
+      <tr>
+        <% @character.traits.each do |trait| %>
+          <th>
+            <%= trait.title %>
+          </th>
+        <% end %>
+      </tr>
+      <% if @character.traits.first %>
+        <% @character.traits.first.tags.size.times do |i| %>
+          <tr>
+            <% @character.traits.each do |trait| %>
+            <td>
+              <%= trait.tags[i] %>
+            </td>
+            <% end %>
+          </tr>
+        <% end %>
+      <% end %>
+    </table>
+  </div>
+</div>
+
+
+<ul>
+
 </ul>

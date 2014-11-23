@@ -10,20 +10,25 @@ class Character
 
   def secrets
     @secrets ||= attributes[name]["Secrets"]
+    @secrets || []
   end
 
   def keys
     @keys ||= attributes[name]["Keys"]
+    @keys || []
   end
 
   def traits
     return @traits if @traits.present?
+
+    return [] unless attributes[name]["Traits"]
+
     @traits = []
     attributes[name]["Traits"].map do |trait_attrs|
       @traits << Trait.new(trait_attrs)
     end
 
-    @traits
+    @traits.sort! {|trait| trait.tags.size}
   end
 
   def name
@@ -33,5 +38,5 @@ class Character
   private
 
   attr_reader :attributes
-  
+
 end
