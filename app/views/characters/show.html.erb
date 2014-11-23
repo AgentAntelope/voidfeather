@@ -2,6 +2,7 @@
   <h1><%= @character.name %> <small>of <%= @character.race %></small></h1>
 </div>
 
+<!-- Keys -->
 <div class="panel panel-default">
   <h3 class='panel-heading'>Keys:</h3>
   <div class="panel-body">
@@ -29,6 +30,8 @@
     </ul>
   </div>
 </div>
+
+<!-- Secrets -->
 
 <div class="panel panel-default">
   <h3 class='panel-heading'>Secrets:</h3>
@@ -60,12 +63,11 @@
   </div>
 </div>
 
+<!-- Traits -->
 
 <div class="panel panel-default">
-  <!-- Default panel contents -->
   <h3 class="panel-heading">Traits:</h3>
   <div class="panel-body">
-    <!-- Table -->
     <table class="table">
       <tr>
         <% @character.traits.each do |trait| %>
@@ -88,8 +90,3 @@
     </table>
   </div>
 </div>
-
-
-<ul>
-
-</ul>
