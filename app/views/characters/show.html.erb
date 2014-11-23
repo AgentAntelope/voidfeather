@@ -6,11 +6,26 @@
   <h3 class='panel-heading'>Keys:</h3>
   <div class="panel-body">
     <ul class='list-group'>
-      <% @character.keys.each do |key| %>
-      <li class='list-group-item'>
-        <%= key.keys.first %>: <%= key.values.first %>
-      </li>
-      <% end %>
+      <table class='table'>
+        <tr>
+          <th>
+            Key
+          </th>
+          <th>
+            Description
+          </th>
+        </tr>
+        <% @character.keys.each do |key| %>
+          <tr>
+            <td>
+              <%= key.keys.first %>
+            </td>
+            <td>
+              <%= key.values.first %>
+            </td>
+          </tr>
+        <% end %>
+      </table>
     </ul>
   </div>
 </div>
