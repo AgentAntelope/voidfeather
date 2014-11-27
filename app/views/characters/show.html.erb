@@ -71,13 +71,13 @@
     <table class="table">
       <tr>
         <% @character.traits.each do |trait| %>
-          <th>
+          <th class='name'>
             <%= trait.title %>
           </th>
         <% end %>
       </tr>
-      <% if @character.traits.first %>
-        <% @character.traits.first.tags.size.times do |i| %>
+      <% if @character.traits.any? %>
+        <% @character.traits.map(&:tags).map(&:size).max.times do |i| %>
           <tr>
             <% @character.traits.each do |trait| %>
             <td>
