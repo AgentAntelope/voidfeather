@@ -37,8 +37,7 @@
   <h3 class='panel-heading'>Secrets:</h3>
   <div class="panel-body">
     <ul class='list-group'>
-      <% @character.secrets.each do |secret| %>
-        <table class='table'>
+      <table class='table'>
           <tr>
             <th class='name'>
               Name
@@ -47,18 +46,17 @@
               Description
             </th>
           </tr>
-          <% @character.secrets.each do |secret| %>
-          <tr>
-            <td>
-              <%= secret.keys.first %>
-            </td>
-            <td>
-              <%= secret.values.first %>
-            </td>
-          </tr>
-          <% end %>
-        </table>
-      <% end %>
+        <% @character.secrets.each do |secret| %>
+        <tr>
+          <td>
+            <%= secret.keys.first %>
+          </td>
+          <td>
+            <%= secret.values.first %>
+          </td>
+        </tr>
+        <% end %>
+      </table>
     </ul>
   </div>
 </div>
