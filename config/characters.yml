@@ -94,3 +94,37 @@
         - Balliol College
         - Theoretical Physics
         - Advanced Mathematics
+
+- Kinoumenon Kinei:
+    Race: The Senders
+    Secrets:
+    - Name: Ronseal
+    - Nigh Invulnerable: Once per session, when you would otherwise mark a condition, you can choose not to do so.
+    Keys:
+      - Daredevil: Ronseal
+      - Rival: Ronseal
+      - Rebel: Ronseal
+    Traits:
+    - Sender:
+        Tags:
+        - Telepath
+        - Telekinetic
+        - Metal
+        - Internal Compass
+    - Underground Criminal:
+        Tags:
+        - Stealth
+        - Scavenger
+        - Joyrider
+        - Explosions
+    - Brawl:
+        Tags:
+        - Alert
+        - Unpredictable
+        - Stab
+        - Shoot
+    - Youth:
+        Tags:
+        - Sweet-talker
+        - Innocent Face
+        - Deceit
