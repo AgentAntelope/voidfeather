@@ -128,3 +128,33 @@
         - Sweet-talker
         - Innocent Face
         - Deceit
+- Grei:
+    Race: The Xaa
+    Secrets:
+    - Throwing: Anything is a dangerous missile in your hands.
+    Keys:
+    - Daredevil: You thrive in dangerous situations. Hit this key when you do something cool that is risky and reckless (especially piloting stunts).
+    - Imposter: You are in disguise, passing yourself off as not a person regarded as dangerous by the Monarchy. Hit your key when you perform well enough to fool someone with your disguise.
+    - Fraternity: Hit this key when your character is influenced by them or when you show how deep your bond is.
+    Traits:
+    - Taker:
+        Tags:
+        - Explosives
+        - Sabotage
+        - Gain Trust
+        - Awareness
+        - Threats
+        - Thrown Weapons
+    - Wayfarer:
+        Tags:
+        - Navigation
+        - Morphology
+        - Geographical Awareness
+        - Wireless/Comms
+        - Tricky Flying
+    - Xaa:
+        Tags:
+        - Rough Skin
+        - Electrical Sensitivity
+        - Misanthrope
+        - Strong
