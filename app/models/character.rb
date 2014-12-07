@@ -28,7 +28,7 @@ class Character
       @traits << Trait.new(trait_attrs)
     end
 
-    @traits.sort! {|trait| trait.tags.size}
+    @traits.sort! {|a,b| a.tags.size <=> b.tags.size}
   end
 
   def name
