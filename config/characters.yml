@@ -101,9 +101,9 @@
     - Name: You are infamous. People may not know your face, but when they hear your name they stop in awe.
     - Nigh Invulnerable: Once per session, when you would otherwise mark a condition, you can choose not to do so.
     Keys:
-      - Daredevil: You thrive in dangerous situations. Hit this key when you do something cool that is risky and reckless (especially piloting stunts).
-      - Rival: You hate someone. Hit this key when you outperform or outfox them in any particular area.
-      - Rebel: The Empire is your greatest foe. Hit this   key whenever you strike a blow against them or kill an Imperial agent.
+    - Daredevil: You thrive in dangerous situations. Hit this key when you do something cool that is risky and reckless (especially piloting stunts).
+    - Rival: You hate someone. Hit this key when you outperform or outfox them in any particular area.
+    - Rebel: The Empire is your greatest foe. Hit this   key whenever you strike a blow against them or kill an Imperial agent.
     Traits:
     - Sender:
         Tags:
