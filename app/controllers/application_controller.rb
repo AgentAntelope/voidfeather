@@ -16,6 +16,6 @@ class ApplicationController < ActionController::Base
       @characters << Character.new(character)
     end
 
-    @characters
+    @characters.sort! {|a,b| a.name <=> b.name}
   end
 end
