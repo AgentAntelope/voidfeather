@@ -56,5 +56,6 @@ Rails.application.routes.draw do
 
   root 'characters#index'
   resources :characters
+  resources :planets
   # get '/characters/:name', to: 'characters#show'
 end
