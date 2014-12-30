@@ -12,8 +12,8 @@ gem 'sass-rails'
 gem 'uglifier'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails'
-# See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer',  platforms: :ruby
+
+gem 'unicorn'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
