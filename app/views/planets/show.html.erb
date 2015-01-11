@@ -6,43 +6,47 @@
   <%= @planet.description %>
 </div>
 
-<div class="panel panel-default">
-  <h3 class='panel-heading'>Notable People:</h3>
-  <div class="panel-body">
-    <ul class='list-group'>
-      <% @planet.notable_people.each do |person| %>
-        <li class="list-group-item">
-          <%= person %>
-        </li>
-      <% end %>
-    </ul>
-  </div>
-</div>
-
-<div class="panel panel-default">
-  <h3 class='panel-heading'>Noteworthy Places:</h3>
-  <div class="panel-body">
-    <ul class='list-group'>
-      <table class='table'>
-        <tr>
-          <th class='name'>
-            Name
-          </th>
-          <th>
-            Description
-          </th>
-        </tr>
-        <% @planet.noteworthy_places.each do |place| %>
-          <tr>
-            <td>
-              <%= place.keys.first %>
-            </td>
-            <td>
-              <%= place.values.first %>
-            </td>
-          </tr>
+<% if @planet.notable_people.any? %>
+  <div class="panel panel-default">
+    <h3 class='panel-heading'>Notable People:</h3>
+    <div class="panel-body">
+      <ul class='list-group'>
+        <% @planet.notable_people.each do |person| %>
+          <li class="list-group-item">
+            <%= person %>
+          </li>
         <% end %>
-      </table>
-    </ul>
+      </ul>
+    </div>
   </div>
-</div>
+<% end %>
+
+<% if @planet.noteworthy_places.any? %>
+  <div class="panel panel-default">
+    <h3 class='panel-heading'>Noteworthy Places:</h3>
+    <div class="panel-body">
+      <ul class='list-group'>
+        <table class='table'>
+          <tr>
+            <th class='name'>
+              Name
+            </th>
+            <th>
+              Description
+            </th>
+          </tr>
+          <% @planet.noteworthy_places.each do |place| %>
+            <tr>
+              <td>
+                <%= place.keys.first %>
+              </td>
+              <td>
+                <%= place.values.first %>
+              </td>
+            </tr>
+          <% end %>
+        </table>
+      </ul>
+    </div>
+  </div>
+<% end %>
