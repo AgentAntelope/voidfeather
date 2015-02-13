@@ -1,0 +1,15 @@
+<div class="page-header">
+  <h1>Planets <small> of the Rajya</small></h1>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-body">
+    <ul class='list-group'>
+      <% @planets.each do |planet| %>
+        <li class='list-group-item'>
+          <%= link_to planet.name, planet_path(planet.name) %>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</div>

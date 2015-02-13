@@ -6,12 +6,12 @@
   <div class="panel-body">
     <ul class='list-group'>
       <% @characters.each do |character| %>
-      <li class='list-group-item'>
-        <%= link_to character.name, character_path(character.name) %>
-        <small>
-          of <%= character.race %>
-        </small>
-      </li>
+        <li class='list-group-item'>
+          <%= link_to character.name, character_path(character.name) %>
+          <small>
+            of <%= character.race %>
+          </small>
+        </li>
       <% end %>
     </ul>
   </div>

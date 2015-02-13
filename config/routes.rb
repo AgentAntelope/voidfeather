@@ -55,7 +55,7 @@ Rails.application.routes.draw do
   #   end
 
   root 'characters#index'
-  resources :characters
-  resources :planets
+  resources :characters, only: [:show, :index]
+  resources :planets, only: [:show, :index]
   # get '/characters/:name', to: 'characters#show'
 end
