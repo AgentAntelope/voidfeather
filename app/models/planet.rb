@@ -22,6 +22,10 @@ class Planet
     @name ||= attributes.keys.first
   end
 
+  def normalized_name
+    name.mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n, '')
+  end
+
   private
 
   attr_reader :attributes

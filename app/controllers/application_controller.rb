@@ -17,7 +17,7 @@ class ApplicationController < ActionController::Base
       @characters << Character.new(character)
     end
 
-    @characters.sort! {|a,b| a.name <=> b.name}
+    @characters.sort! {|a,b| a.normalized_name <=> b.normalized_name}
   end
 
   def load_planets
@@ -29,6 +29,6 @@ class ApplicationController < ActionController::Base
       @planets << Planet.new(planet)
     end
 
-    @planets.sort! {|a,b| a.name <=> b.name}
+    @planets.sort! {|a,b| a.normalized_name <=> b.normalized_name}
   end
 end
