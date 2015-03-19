@@ -79,7 +79,13 @@
           <tr>
             <% @character.traits.each do |trait| %>
             <td>
-              <%= trait.tags[i] %>
+              <% if specialization?(trait.tags[i]) %>
+                <b>
+                  <%= trait.tags[i] %>
+                </b>
+              <% else %>
+                <%= trait.tags[i] %>
+              <% end %>
             </td>
             <% end %>
           </tr>
