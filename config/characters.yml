@@ -26,12 +26,12 @@
         - Surgery
     - Silver Tongue:
         Tags:
+        - Pathetic (Specialization)
         - Raconteur
         - Deceit
         - Bartering
         - Pushing Buttons
         - Sway
-        - Pathetic (Specialization)
 
 - Alessandro Massino:
     Race: the Humans
@@ -45,9 +45,9 @@
     Traits:
     - Science:
         Tags:
+        - Investigate (Specialization)
         - Employ Device
         - Analyze
-        - Investigate (Specialization)
         - Reverse Engineer
         - Fabricate
         - Theory
@@ -120,11 +120,11 @@
         - Marksmanship
     - Wayfarer:
         Tags:
+        - Tricky Flying (Specialization)
         - Navigation
         - Morphology
         - Geographical Awareness
         - Wireless/Comms
-        - Tricky Flying (Specialization)
     - Xaa:
         Tags:
         - Rough Skin
@@ -152,9 +152,9 @@
         - Unfazed
     - Gentleman Spy:
         Tags:
+        - Blending In (Specialization)
         - Fast Talk
         - Cover Story
-        - Blending In (Specialization)
         - Bluster
         - Light-Fingered
         - Quick Exit
@@ -177,8 +177,8 @@
     Traits:
     - Sender:
         Tags:
-        - Telepath
         - Telekinetic (Specialization)
+        - Telepath
         - Metal
         - Internal Compass
     - Underground Criminal:
