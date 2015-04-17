@@ -59,5 +59,14 @@
 
     <%= yield %>
 
+    <footer class="footer">
+      <div class="container">
+        <center>
+          <% @hipku.each do |line| %>
+            <p class="text-muted"><%= line.gsub(/\A./) {|m| m.upcase} %></p>
+          <% end %>
+        </center>
+      </div>
+    </footer>
   </body>
 </html>

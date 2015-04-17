@@ -5,8 +5,13 @@ class ApplicationController < ActionController::Base
 
   before_filter :load_characters
   before_filter :load_planets
+  before_filter :hipku
 
   private
+
+  def hipku
+    @hipku = Hipku.encode(request.ip).split("\n")
+  end
 
   def load_characters
     return @characters if @characters.present?
