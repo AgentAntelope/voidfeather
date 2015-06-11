@@ -1,7 +1,7 @@
 ---
 - Alakdan:
     Race: the Tē
-    Luck: 7
+    Luck: 8
     Secrets:
     - Luck: Once per session, you may declare something almost unbelievably co-incidental or lucky that happens to your benefit.
     - Command: Once per session an NPC will follow any non-suicidal command you give.
@@ -17,6 +17,7 @@
         - Mechanic
         - Electrician
         - Improvised Weapons
+        - Make It Work
         - Hacking
         - Tricorder
     - Medic:
@@ -33,6 +34,7 @@
         - Deceit
         - Bartering
         - Pushing Buttons
+        - Just This Once
         - Sway
 
 - Alessandro Massino:
