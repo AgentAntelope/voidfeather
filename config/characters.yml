@@ -37,7 +37,7 @@
 
 - Alessandro Massino:
     Race: the Humans
-    Luck: 7
+    Luck: 8
     Secrets:
     - MacGuiver: Once per session you may automatically produce a plot relevant device from available materials.
     - Outer Self: Once per sessin you can summon an alterate self with a dice pool of six in any one thing.
@@ -56,6 +56,8 @@
         - Theory
         - Physics
         - Intuit
+        - Engineering
+        - Repair
     - Field Medic:
         Tags:
         - Medicine
@@ -68,6 +70,8 @@
         - Tactics
         - Hand-to-Hand
         - Self-Defence
+        - Covering Fire
+        - Firearms
 
 - Cuatzanixli (Ili):
     Race: the Nomhuatl
