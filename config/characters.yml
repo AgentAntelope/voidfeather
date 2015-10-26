@@ -183,6 +183,7 @@
     Secrets:
     - Name: You are infamous. People may not know your face, but when they hear your name they stop in awe.
     - Nigh Invulnerable: Once per session, when you would otherwise mark a condition, you can choose not to do so.
+    - It'll Be Fine: ''
     Keys:
     - Daredevil: You thrive in dangerous situations. Hit this key when you do something cool that is risky and reckless (especially piloting stunts).
     - Rival: You hate someone. Hit this key when you outperform or outfox them in any particular area.
@@ -194,19 +195,22 @@
         - Telepath
         - Metal
         - Internal Compass
+        - Focussed
+        - Strong Willed
     - Underground Criminal:
         Tags:
+        - Piloting (Specialization)
         - Stealth
         - Scavenger
         - Joyrider
         - Explosions
     - Brawl:
         Tags:
+        - Swordsmanship (Specialization)
         - Alert
         - Unpredictable
         - Stab
         - Shoot
-        - Swordsmanship
         - Marksmanship
     - Youth:
         Tags:
