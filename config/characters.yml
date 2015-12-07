@@ -163,7 +163,7 @@
 
 - Jonah Palethorpe:
     Race: the Humans
-    Luck: 8
+    Luck: 10
     Secrets:
     - Nondescript: When you blend into the background, people will not notice you unless you give them a reason to.
     - Technopath: Once per session a machine (including A.I.s) will do what you want.
@@ -174,9 +174,10 @@
     Traits:
     - Rough Work:
         Tags:
+        - Murder (Specialization)
+        - Fencing (Specialization)
         - Shooting
         - Stabbing
-        - Murder
         - Marksman
         - From The Shadows
         - Unfazed
