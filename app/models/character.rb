@@ -12,6 +12,10 @@ class Character
     @luck ||= attributes[name]["Luck"]
   end
 
+  def fine
+    @fine ||= attributes[name]["Fine"] || 0
+  end
+
   def secrets
     @secrets ||= attributes[name]["Secrets"]
     @secrets || []

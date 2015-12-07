@@ -115,11 +115,12 @@
 - Grei:
     Race: The Xaa
     Luck: 7
+    Fine: 4
     Secrets:
-    - Throwing: Anything is a dangerous missile in your hands.
-    - Time: Once per session you can retroactively have reacted to something in the last minute.
+      - Throwing: Anything is a dangerous missile in your hands.
+      - Time: Once per session you can retroactively have reacted to something in the last minute.
+      - It'll be fine: It is most definitely *not* going to be fine - 4
     Keys:
-    - Daredevil: You thrive in dangerous situations. Hit this key when you do something cool that is risky and reckless (especially piloting stunts).
     - Imposter: You are in disguise, passing yourself off as not a person regarded as dangerous by the Monarchy. Hit your key when you perform well enough to fool someone with your disguise.
     - Fraternity: Hit this key when your character is influenced by them or when you show how deep your bond is.
     - Rebel: The Empire is your greatest foe. Hit this key whenever you strike a blow against them or kill an Imperial agent.
@@ -129,10 +130,12 @@
         - Explosives
         - Sabotage
         - Gain Trust
-        - Awareness
+        - Situational Awareness
         - Threats
         - Thrown Weapons
         - Marksmanship
+        - Keen Aim
+        - Ridiculous Lying
     - Wayfarer:
         Tags:
         - Tricky Flying (Specialization)
@@ -140,12 +143,14 @@
         - Morphology
         - Geographical Awareness
         - Wireless/Comms
+        - Ship Systems/Schematics
     - Xaa:
         Tags:
         - Rough Skin
-        - Electrical Sensitivity
+        - Electrical Sensitivity (Specialisation)
         - Misanthrope
         - Strong
+        - Rock Solid-ness
 
 - Jonah Palethorpe:
     Race: the Humans
