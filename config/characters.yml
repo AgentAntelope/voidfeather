@@ -82,6 +82,7 @@
 - Cuatzanixli (Ili):
     Race: the Nomhuatl
     Luck: 7
+    Fine: 8
     Secrets:
     - Contacts: Ronseal
     - Blink: You may teleport to anywhere you can see.
@@ -103,6 +104,10 @@
         - Disarm
         - Improvised Weapon
         - He Fell Down The Stairs
+        - Fighting Dirty
+        - Sniping
+        - Murder
+        - Grabbing
     - Police - The Rest:
         Tags:
         - Negotiate
@@ -111,6 +116,10 @@
         - Investigate
         - Part of a Team
         - Access Codes
+        - Raj Background
+        - Bend The Truth
+        - Outright Lie
+        - Impersonate
 
 - Grei:
     Race: The Xaa
