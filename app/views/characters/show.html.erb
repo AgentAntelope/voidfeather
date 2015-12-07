@@ -3,7 +3,9 @@
   <h1><%= @character.name %> <small>of <%= @character.race %></small></h1>
   <div class="luck">
     <h3>Luck: <%= @character.luck %></h3>
-    <h3>Fine: <%= @character.fine %></h3>
+    <% if @character.fine > 0 %>
+      <h3>Fine: <%= @character.fine %></h3>
+    <% end %>
   </div>
 </div>
 
