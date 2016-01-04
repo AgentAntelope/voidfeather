@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class Trait
   def initialize(attributes)
     @attributes = attributes
