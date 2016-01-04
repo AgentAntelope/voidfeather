@@ -25,7 +25,7 @@ gem 'spring',        group: :development
 
 gem 'therubyracer'
 
-gem 'less-rails'
+gem 'less-rails', git: 'https://github.com/metaskills/less-rails.git', ref: '539f28d174bfb2e6969a9cd04f89e65a730f2e8f'
 
 gem 'twitter-bootstrap-rails'
 
